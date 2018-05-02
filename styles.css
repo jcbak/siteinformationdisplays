@@ -1,0 +1,84 @@
+.header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #b3b3b3 ; 
+    color: black; /*  text color */
+}
+
+/* Increase the font size of the <h1> element */
+ .header h1 {
+    font-size: 40px;
+} 
+/*frame container*/
+.rowtop { 
+    display: flex;
+    flex-wrap: nowrap;
+	flex-direction: row;
+	align-content: space-between;
+	
+	height:400px;
+}
+.rowbottom { 
+    display: flex;
+    flex-wrap: nowrap;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: stretch;
+	height:400px;
+}
+.frame1{
+	flex: 25%;
+	background-color: white;
+	padding: 20px;
+	margin:30px;
+	border-width:10px;
+	border-radius:10px;
+}
+.frame2{
+	flex:  25%;
+	background-color: white;
+	margin:30px;
+	padding: 20px;
+	border-radius:10px;
+}
+.frame3{
+	flex: 25%;
+	background-color: white;
+	margin:30px;
+	padding: 20px;
+	border-radius:10px;
+}
+
+body {
+    background-color:  #404040 ;
+}
+
+.footer{
+	text-align:center;
+	background: #b3b3b3;
+	height:80px;
+	margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1 {
+    color: blue;
+}
+p {
+    color: red;
+} 
